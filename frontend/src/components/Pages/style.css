@@ -1,0 +1,177 @@
+body{
+    background-color: #fff;
+}
+.centered {
+    padding-top: 160px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*  Home Page  */
+
+.home .centered{
+    padding-top: 222px ;
+    padding-bottom: 222px;
+}
+
+/*  Login Page */
+
+.login .centered{
+    padding-top: 240px;
+    padding-bottom: 265px;
+}
+
+/* Register Page */
+
+.register .centered{
+    padding-top: 240px;
+    padding-bottom: 265px;
+}
+
+
+/* Secret Page */
+
+.secret .footer{
+    position: absolute !important;
+    bottom: 0px;
+}
+
+.secret .centered{
+    padding-top: 100px !important;
+}
+
+
+.centered .key{
+    font-size: 40px;
+}
+
+.centered .heading{
+    font-size: 35px;
+}
+
+.centered .lead{
+    font-size: 25px;
+}
+
+
+
+.centered .secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+}
+
+.centered .secret-text li{
+     width: 40%;
+     margin: auto;
+     list-style: none;
+    font-size: 25px;
+}
+
+.centered hr{
+    width: 15%;
+}
+
+.centered .register-btn{
+    margin-right: 6px;
+}
+
+.centered .login-btn{
+    margin-left: 6px;
+}
+
+.centered button{
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px solid grey;
+    font-weight: bold;
+}
+
+.centered button a{
+    text-decoration-line: none;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    padding: 1px 8px;
+}
+
+.centered button a:hover{
+    color: #dc2334;
+    transition: .7s linear;
+    cursor: pointer;
+}
+
+.centered form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    gap: 5px;
+}
+
+
+.centered form .form-group label{
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.centered form .form-group input{
+    padding: 1px 10px;
+    outline: none;
+}
+
+.centered .login-btn{
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 2px solid grey;
+    margin-top: 10px;
+}
+
+.centered .login-btn:hover{
+    color: #dc2334;
+    transition: .7s linear;
+    cursor: pointer;
+}
+
+/*  Submit Page */
+
+.submit .centered{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.submit .centered .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit .centered .form-group .form-control{
+    padding: 2px 8px;
+    font-size: 19px;
+    width: 100%;
+    border-radius: 6px;
+    border: 2px solid #dc2334;
+}
+
+.submit .centered .submit-btn{
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 2px solid grey;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.submit .centered .submit-btn:hover{
+    color: #dc2334;
+    transition: .7s linear;
+    cursor: pointer;
+}
